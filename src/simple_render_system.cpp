@@ -65,7 +65,7 @@ namespace nve
         nveDevice, "../shaders/simple_shader.vert.spv", "../shaders/simple_shader.frag.spv", pipelineConfig);
   }
 
-  void SimpleRenderSystem::renderGameObjects(VkCommandBuffer commandBuffer, std::vector<NveGameObject> &gameObjects)
+  void SimpleRenderSystem::renderGameObjects(VkCommandBuffer commandBuffer, std::vector<NveGameObject> &gameObjects, const NveCamera &camera)
   {
     // render
     nvePipeline->bind(commandBuffer);
@@ -76,7 +76,7 @@ namespace nve
 
       SimplePushConstantData push{};
       push.color = obj.color;
-      push.transform = obj.transform.mat4();
+      push.transform = camera.getProjectionMatrix() * obj.transform.mat4();
 
       vkCmdPushConstants(
           commandBuffer,

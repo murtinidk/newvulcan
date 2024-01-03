@@ -139,6 +139,15 @@ build CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj: CXX_COMPILER__n
   TARGET_COMPILE_PDB = CMakeFiles\newvulkan.dir\
   TARGET_PDB = C:\Users\marti\Documents\newvulcan\bin\newvulkan.pdb
 
+build CMakeFiles/newvulkan.dir/src/nve_camera.cpp.obj: CXX_COMPILER__newvulkan_unscanned_Debug C$:/Users/marti/Documents/newvulcan/src/nve_camera.cpp || cmake_object_order_depends_target_newvulkan
+  DEP_FILE = CMakeFiles\newvulkan.dir\src\nve_camera.cpp.obj.d
+  FLAGS = -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g
+  INCLUDES = -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include
+  OBJECT_DIR = CMakeFiles\newvulkan.dir
+  OBJECT_FILE_DIR = CMakeFiles\newvulkan.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\newvulkan.dir\
+  TARGET_PDB = C:\Users\marti\Documents\newvulcan\bin\newvulkan.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target newvulkan
@@ -147,7 +156,7 @@ build CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj: CXX_COMPILER__n
 #############################################
 # Link the executable C:\Users\marti\Documents\newvulcan\bin\newvulkan.exe
 
-build C$:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CXX_EXECUTABLE_LINKER__newvulkan_Debug CMakeFiles/newvulkan.dir/src/main.cpp.obj CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj CMakeFiles/newvulkan.dir/src/app.cpp.obj CMakeFiles/newvulkan.dir/src/nve_pipeline.cpp.obj CMakeFiles/newvulkan.dir/src/nve_device.cpp.obj CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj CMakeFiles/newvulkan.dir/src/nve_model.cpp.obj CMakeFiles/newvulkan.dir/src/nve_game_object.cpp.obj CMakeFiles/newvulkan.dir/src/nve_renderer.cpp.obj CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj | libs/GLFW/src/glfw3.lib C$:/VulkanSDK/Lib/vulkan-1.lib || compile_shaders libs/GLFW/src/glfw3.lib
+build C$:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CXX_EXECUTABLE_LINKER__newvulkan_Debug CMakeFiles/newvulkan.dir/src/main.cpp.obj CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj CMakeFiles/newvulkan.dir/src/app.cpp.obj CMakeFiles/newvulkan.dir/src/nve_pipeline.cpp.obj CMakeFiles/newvulkan.dir/src/nve_device.cpp.obj CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj CMakeFiles/newvulkan.dir/src/nve_model.cpp.obj CMakeFiles/newvulkan.dir/src/nve_game_object.cpp.obj CMakeFiles/newvulkan.dir/src/nve_renderer.cpp.obj CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj CMakeFiles/newvulkan.dir/src/nve_camera.cpp.obj | libs/GLFW/src/glfw3.lib C$:/VulkanSDK/Lib/vulkan-1.lib || compile_shaders libs/GLFW/src/glfw3.lib
   FLAGS = -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
   LINK_FLAGS = -Xlinker /subsystem:console
   LINK_LIBRARIES = libs/GLFW/src/glfw3.lib  C:/VulkanSDK/Lib/vulkan-1.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames

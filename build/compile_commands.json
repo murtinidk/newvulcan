@@ -61,6 +61,12 @@
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_camera.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_camera.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_camera.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_camera.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_camera.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
   "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\context.c",
   "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\context.c",
   "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\context.c.obj"

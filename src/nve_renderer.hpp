@@ -22,6 +22,9 @@ namespace nve
     NveRenderer &operator=(const NveRenderer &) = delete;
 
     VkRenderPass getSwapChainRenderPass() const { return nveSwapChain->getRenderPass(); }
+
+    float getAspectRatio() const { return nveSwapChain->extentAspectRatio(); }
+
     bool isFrameInProgress() const { return isFrameStarted; }
 
     VkCommandBuffer getCurrentCommandBuffer() const
