@@ -1,0 +1,188 @@
+[
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\main.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\main.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_window.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_window.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\app.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\app.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\app.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\app.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\app.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_pipeline.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_pipeline.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_device.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_device.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_swap_chain.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_swap_chain.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_model.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_model.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_game_object.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_game_object.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_renderer.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_renderer.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\context.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\context.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\context.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\init.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\init.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\init.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\input.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\input.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\input.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\monitor.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\monitor.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\platform.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\platform.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\platform.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\platform.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\vulkan.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\vulkan.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\window.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\window.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\window.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\egl_context.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\egl_context.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\osmesa_context.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\osmesa_context.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_init.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_init.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_monitor.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_monitor.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_window.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_window.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_joystick.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\null_joystick.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_module.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_module.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_time.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_time.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_thread.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_thread.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_init.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_init.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_joystick.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_joystick.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_monitor.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_monitor.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_window.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\win32_window.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -IC:/Users/marti/Documents/newvulcan/libs/GLFW/src -IC:/Users/marti/Documents/newvulcan/build/libs/GLFW/src -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -Wextra -g -o libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\wgl_context.c",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\libs\\GLFW\\src\\wgl_context.c",
+  "output": "libs\\GLFW\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj"
+}
+]
