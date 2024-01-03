@@ -1,5 +1,6 @@
 #include "app.hpp"
 
+#include "keyboard_movement_controller.hpp"
 #include "nve_camera.hpp"
 #include "simple_render_system.hpp"
 
@@ -10,8 +11,11 @@
 
 // std
 #include <array>
+#include <chrono>
 #include <iostream>
 #include <stdexcept>
+
+#define MAX_FRAME_TIME 0.1f
 
 namespace nve
 {
@@ -33,11 +37,25 @@ namespace nve
     // camera.setViewDirection(glm::vec3{0.f}, glm::vec3{0.5f, 0.f, 1.f});
     camera.setViewTarget(glm::vec3{-1.f, -2.f, 2.f}, glm::vec3{0.f, 0.f, 2.5f});
 
+    auto viewerObject = NveGameObject::createGameObject();
+    KeyboardMovementController cameraController{};
+
+    auto currentTime = std::chrono::high_resolution_clock::now();
+
     while (!nveWindow.shouldClose())
     {
       glfwPollEvents();
+
+      auto newTime = std::chrono::high_resolution_clock::now();
+      float frameTime = std::chrono::duration<float, std::chrono::seconds::period>(newTime - currentTime).count();
+      currentTime = newTime;
+
+      frameTime = glm::min(frameTime, MAX_FRAME_TIME);
+
+      cameraController.moveInPlaneXZ(nveWindow.getGLFWwindow(), frameTime, viewerObject);
+      camera.setViewYXZ(viewerObject.transform.translation, viewerObject.transform.rotation);
+
       float aspect = nveRenderer.getAspectRatio();
-      // camera.setOrthographicProjection(-aspect, aspect, -1, 1, -1, 1);
       camera.setPerspectiveProjection(glm::radians(50.f), aspect, 0.1f, 10.f);
 
       if (auto commandBuffer = nveRenderer.beginFrame())

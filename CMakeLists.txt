@@ -11,7 +11,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 
 add_compile_options("-Wall" "-Wextra" "-g")
 
-set(SOURCE_FILES src/main.cpp src/nve_window.cpp src/nve_window.hpp src/app.cpp src/app.hpp src/nve_pipeline.cpp src/nve_pipeline.hpp src/nve_device.cpp src/nve_device.hpp src/nve_swap_chain.cpp src/nve_swap_chain.hpp src/nve_model.cpp src/nve_model.hpp src/nve_game_object.cpp src/nve_game_object.hpp src/nve_renderer.cpp src/nve_renderer.hpp src/simple_render_system.cpp src/simple_render_system.hpp src/nve_camera.cpp src/nve_camera.hpp)
+set(SOURCE_FILES src/main.cpp src/nve_window.cpp src/nve_window.hpp src/app.cpp src/app.hpp src/nve_pipeline.cpp src/nve_pipeline.hpp src/nve_device.cpp src/nve_device.hpp src/nve_swap_chain.cpp src/nve_swap_chain.hpp src/nve_model.cpp src/nve_model.hpp src/nve_game_object.cpp src/nve_game_object.hpp src/nve_renderer.cpp src/nve_renderer.hpp src/simple_render_system.cpp src/simple_render_system.hpp src/nve_camera.cpp src/nve_camera.hpp src/keyboard_movement_controller.cpp src/keyboard_movement_controller.hpp)
 
 # Find GLFW
 add_subdirectory(libs/GLFW)
