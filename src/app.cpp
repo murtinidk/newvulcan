@@ -45,24 +45,79 @@ namespace nve
     vkDeviceWaitIdle(nveDevice.device());
   }
 
+  // temporary helper function, creates a 1x1x1 cube centered at offset
+  // clang-format off
+  std::unique_ptr<NveModel> createCubeModel(NveDevice &device, glm::vec3 offset)
+  {
+    std::vector<NveModel::Vertex> vertices{
+
+        // left face (white)
+        {{-.5f, -.5f, -.5f}, {.9f, .9f, .9f}},
+        {{-.5f, .5f, .5f}, {.9f, .9f, .9f}},
+        {{-.5f, -.5f, .5f}, {.9f, .9f, .9f}},
+        {{-.5f, -.5f, -.5f}, {.9f, .9f, .9f}},
+        {{-.5f, .5f, -.5f}, {.9f, .9f, .9f}},
+        {{-.5f, .5f, .5f}, {.9f, .9f, .9f}},
+
+        // right face (yellow)
+        {{.5f, -.5f, -.5f}, {.8f, .8f, .1f}},
+        {{.5f, .5f, .5f}, {.8f, .8f, .1f}},
+        {{.5f, -.5f, .5f}, {.8f, .8f, .1f}},
+        {{.5f, -.5f, -.5f}, {.8f, .8f, .1f}},
+        {{.5f, .5f, -.5f}, {.8f, .8f, .1f}},
+        {{.5f, .5f, .5f}, {.8f, .8f, .1f}},
+
+        // top face (orange, remember y axis points down)
+        {{-.5f, -.5f, -.5f}, {.9f, .6f, .1f}},
+        {{.5f, -.5f, .5f}, {.9f, .6f, .1f}},
+        {{-.5f, -.5f, .5f}, {.9f, .6f, .1f}},
+        {{-.5f, -.5f, -.5f}, {.9f, .6f, .1f}},
+        {{.5f, -.5f, -.5f}, {.9f, .6f, .1f}},
+        {{.5f, -.5f, .5f}, {.9f, .6f, .1f}},
+
+        // bottom face (red)
+        {{-.5f, .5f, -.5f}, {.8f, .1f, .1f}},
+        {{.5f, .5f, .5f}, {.8f, .1f, .1f}},
+        {{-.5f, .5f, .5f}, {.8f, .1f, .1f}},
+        {{-.5f, .5f, -.5f}, {.8f, .1f, .1f}},
+        {{.5f, .5f, -.5f}, {.8f, .1f, .1f}},
+        {{.5f, .5f, .5f}, {.8f, .1f, .1f}},
+
+        // nose face (blue)
+        {{-.5f, -.5f, 0.5f}, {.1f, .1f, .8f}},
+        {{.5f, .5f, 0.5f}, {.1f, .1f, .8f}},
+        {{-.5f, .5f, 0.5f}, {.1f, .1f, .8f}},
+        {{-.5f, -.5f, 0.5f}, {.1f, .1f, .8f}},
+        {{.5f, -.5f, 0.5f}, {.1f, .1f, .8f}},
+        {{.5f, .5f, 0.5f}, {.1f, .1f, .8f}},
+
+        // tail face (green)
+        {{-.5f, -.5f, -0.5f}, {.1f, .8f, .1f}},
+        {{.5f, .5f, -0.5f}, {.1f, .8f, .1f}},
+        {{-.5f, .5f, -0.5f}, {.1f, .8f, .1f}},
+        {{-.5f, -.5f, -0.5f}, {.1f, .8f, .1f}},
+        {{.5f, -.5f, -0.5f}, {.1f, .8f, .1f}},
+        {{.5f, .5f, -0.5f}, {.1f, .8f, .1f}},
+
+    };
+    for (auto &v : vertices)
+    {
+      v.position += offset;
+    }
+    return std::make_unique<NveModel>(device, vertices);
+  }
+  // clang-format on
+
   void
   NveApp::loadGameObjects()
   {
-    std::vector<NveModel::Vertex> vertices = {
-        {{0.0f, -0.5f}, {1.0f, 0.0f, 0.0f}},
-        {{0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},
-        {{-0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}},
-    };
-    auto nveModel = std::make_shared<NveModel>(nveDevice, vertices);
+    std::shared_ptr<NveModel> nveModel = createCubeModel(nveDevice, {0.f, 0.f, 0.f});
 
-    auto triange = NveGameObject::createGameObject();
-    triange.model = nveModel;
-    triange.color = {0.1f, 0.8f, 0.1f};
-    triange.transform2d.translation.x = 0.2f;
-    triange.transform2d.scale = {2.f, .5f};
-    triange.transform2d.rotation = 0.25f * glm::two_pi<float>();
-
-    gameObjects.push_back(std::move(triange));
+    auto cube = NveGameObject::createGameObject();
+    cube.model = nveModel;
+    cube.transform.translation = {0.f, 0.f, .5f};
+    cube.transform.scale = {0.5f, 0.5f, 0.5f};
+    gameObjects.push_back(std::move(cube));
   }
 
 } // namespace nve
