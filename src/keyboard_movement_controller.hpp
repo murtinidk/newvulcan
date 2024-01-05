@@ -5,6 +5,19 @@
 
 namespace nve
 {
+  class MouseLookController
+  {
+  public:
+    MouseLookController(GLFWwindow *window);
+
+    ~MouseLookController();
+
+    void UpdateMouse(GLFWwindow *window, NveGameObject &gameObject);
+
+  private:
+    GLFWcursor *cursor_;
+  };
+
   class KeyboardMovementController
   {
   public:

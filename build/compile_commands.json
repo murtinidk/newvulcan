@@ -1,63 +1,21 @@
 [
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\main.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\main.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_window.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_window.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
   "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\app.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\app.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\app.cpp",
   "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\app.cpp",
   "output": "CMakeFiles\\newvulkan.dir\\src\\app.cpp.obj"
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_pipeline.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_pipeline.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj"
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\keyboard_movement_controller.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\keyboard_movement_controller.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\keyboard_movement_controller.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\keyboard_movement_controller.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\keyboard_movement_controller.cpp.obj"
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_device.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_device.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_swap_chain.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_swap_chain.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_model.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_model.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_game_object.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_game_object.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_renderer.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_renderer.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj"
-},
-{
-  "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj"
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\main.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\main.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
@@ -67,9 +25,51 @@
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\keyboard_movement_controller.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\keyboard_movement_controller.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\keyboard_movement_controller.cpp",
-  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\keyboard_movement_controller.cpp",
-  "output": "CMakeFiles\\newvulkan.dir\\src\\keyboard_movement_controller.cpp.obj"
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_device.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_device.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_device.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_game_object.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_game_object.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_game_object.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_model.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_model.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_model.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_pipeline.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_pipeline.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_pipeline.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_renderer.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_renderer.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_swap_chain.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_swap_chain.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_swap_chain.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_window.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\nve_window.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\nve_window.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -IC:/Users/marti/Documents/newvulcan/libs/GLFW/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLWF/include -isystem C:/Users/marti/Documents/newvulcan/libs/GLM -isystem C:/VulkanSDK/Include -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g @CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj.modmap -o CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
+  "file": "C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
+  "output": "CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj"
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",

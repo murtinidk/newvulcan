@@ -1,3 +1,4 @@
+///* right handed z-up with x beeing forward
 #include "app.hpp"
 
 #include "keyboard_movement_controller.hpp"
@@ -34,11 +35,13 @@ namespace nve
   {
     SimpleRenderSystem simpleRenderSystem{nveDevice, nveRenderer.getSwapChainRenderPass()};
     NveCamera camera{};
-    // camera.setViewDirection(glm::vec3{0.f}, glm::vec3{0.5f, 0.f, 1.f});
-    camera.setViewTarget(glm::vec3{-1.f, -2.f, 2.f}, glm::vec3{0.f, 0.f, 2.5f});
+    camera.setViewYXZ(glm::vec3{0.f}, glm::vec3{0.f, 0.f, 0.f});
+    // camera.setViewDirection(glm::vec3{0.f}, glm::vec3{1.f, 0.f, 0.f});
+    // camera.setViewTarget(glm::vec3{0.f, 0.f, 0.f}, glm::vec3{2.5f, 0.f, 0.f});
 
     auto viewerObject = NveGameObject::createGameObject();
     KeyboardMovementController cameraController{};
+    MouseLookController mouseController{nveWindow.getGLFWwindow()};
 
     auto currentTime = std::chrono::high_resolution_clock::now();
 
@@ -52,8 +55,11 @@ namespace nve
 
       frameTime = glm::min(frameTime, MAX_FRAME_TIME);
 
+      std::cout << "rotations: x: " << viewerObject.transform.rotation.x << " y: " << viewerObject.transform.rotation.y << " z: " << viewerObject.transform.rotation.z << '\n';
+
       cameraController.moveInPlaneXZ(nveWindow.getGLFWwindow(), frameTime, viewerObject);
-      camera.setViewYXZ(viewerObject.transform.translation, viewerObject.transform.rotation);
+      mouseController.UpdateMouse(nveWindow.getGLFWwindow(), viewerObject);
+      camera.setViewYXZdownX(viewerObject.transform.translation, viewerObject.transform.rotation);
 
       float aspect = nveRenderer.getAspectRatio();
       camera.setPerspectiveProjection(glm::radians(50.f), aspect, 0.1f, 10.f);
@@ -140,7 +146,7 @@ namespace nve
 
     auto cube = NveGameObject::createGameObject();
     cube.model = nveModel;
-    cube.transform.translation = {0.f, 0.f, 2.5f};
+    cube.transform.translation = {2.5f, 0.f, 0.f};
     cube.transform.scale = {0.5f, 0.5f, 0.5f};
     gameObjects.push_back(std::move(cube));
   }
