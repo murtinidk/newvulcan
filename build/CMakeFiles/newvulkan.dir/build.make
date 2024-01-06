@@ -263,19 +263,34 @@ CMakeFiles/newvulkan.dir/src/nve_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newvulkan.dir/src/nve_window.cpp.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj: CMakeFiles/newvulkan.dir/flags.make
-CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj: CMakeFiles/newvulkan.dir/includes_CXX.rsp
-CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj: C:/Users/marti/Documents/newvulcan/src/simple_render_system.cpp
-CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj: CMakeFiles/newvulkan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj -MF CMakeFiles\newvulkan.dir\src\simple_render_system.cpp.obj.d -o CMakeFiles\newvulkan.dir\src\simple_render_system.cpp.obj -c C:\Users\marti\Documents\newvulcan\src\simple_render_system.cpp
+CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj: CMakeFiles/newvulkan.dir/flags.make
+CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj: CMakeFiles/newvulkan.dir/includes_CXX.rsp
+CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj: C:/Users/marti/Documents/newvulcan/src/systems/point_light_system.cpp
+CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj: CMakeFiles/newvulkan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj -MF CMakeFiles\newvulkan.dir\src\systems\point_light_system.cpp.obj.d -o CMakeFiles\newvulkan.dir\src\systems\point_light_system.cpp.obj -c C:\Users\marti\Documents\newvulcan\src\systems\point_light_system.cpp
 
-CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.i"
+CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.s"
+CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj: CMakeFiles/newvulkan.dir/flags.make
+CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj: CMakeFiles/newvulkan.dir/includes_CXX.rsp
+CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj: C:/Users/marti/Documents/newvulcan/src/systems/simple_render_system.cpp
+CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj: CMakeFiles/newvulkan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj -MF CMakeFiles\newvulkan.dir\src\systems\simple_render_system.cpp.obj.d -o CMakeFiles\newvulkan.dir\src\systems\simple_render_system.cpp.obj -c C:\Users\marti\Documents\newvulcan\src\systems\simple_render_system.cpp
+
+CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 # Object files for target newvulkan
@@ -293,7 +308,8 @@ newvulkan_OBJECTS = \
 "CMakeFiles/newvulkan.dir/src/nve_renderer.cpp.obj" \
 "CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj" \
 "CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj" \
-"CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj"
+"CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj" \
+"CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj"
 
 # External object files for target newvulkan
 newvulkan_EXTERNAL_OBJECTS =
@@ -311,14 +327,15 @@ C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/s
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/src/nve_renderer.cpp.obj
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj
-C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj
+C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj
+C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/build.make
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: libs/GLFW/src/glfw3.lib
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: C:/VulkanSDK/Lib/vulkan-1.lib
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/linkLibs.rsp
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/objects1.rsp
 C:/Users/marti/Documents/newvulcan/bin/newvulkan.exe: CMakeFiles/newvulkan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable C:\Users\marti\Documents\newvulcan\bin\newvulkan.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable C:\Users\marti\Documents\newvulcan\bin\newvulkan.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\newvulkan.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

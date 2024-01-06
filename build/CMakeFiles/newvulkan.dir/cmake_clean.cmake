@@ -28,8 +28,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj.d"
   "CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj"
   "CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj.d"
-  "CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj"
-  "CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj.d"
+  "CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj"
+  "CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj.d"
+  "CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj"
+  "CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj.d"
   "newvulkan.lib"
 )
 

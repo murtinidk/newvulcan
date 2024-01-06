@@ -21,7 +21,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/marti/Documents/newvulcan/src/nve_renderer.cpp" "CMakeFiles/newvulkan.dir/src/nve_renderer.cpp.obj" "gcc" "CMakeFiles/newvulkan.dir/src/nve_renderer.cpp.obj.d"
   "C:/Users/marti/Documents/newvulcan/src/nve_swap_chain.cpp" "CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj" "gcc" "CMakeFiles/newvulkan.dir/src/nve_swap_chain.cpp.obj.d"
   "C:/Users/marti/Documents/newvulcan/src/nve_window.cpp" "CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj" "gcc" "CMakeFiles/newvulkan.dir/src/nve_window.cpp.obj.d"
-  "C:/Users/marti/Documents/newvulcan/src/simple_render_system.cpp" "CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj" "gcc" "CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj.d"
+  "C:/Users/marti/Documents/newvulcan/src/systems/point_light_system.cpp" "CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj" "gcc" "CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj.d"
+  "C:/Users/marti/Documents/newvulcan/src/systems/simple_render_system.cpp" "CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj" "gcc" "CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

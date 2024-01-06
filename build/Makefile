@@ -537,29 +537,53 @@ src/nve_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/nve_window.cpp.s
 .PHONY : src/nve_window.cpp.s
 
-src/simple_render_system.obj: src/simple_render_system.cpp.obj
-.PHONY : src/simple_render_system.obj
+src/systems/point_light_system.obj: src/systems/point_light_system.cpp.obj
+.PHONY : src/systems/point_light_system.obj
 
 # target to build an object file
-src/simple_render_system.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj
-.PHONY : src/simple_render_system.cpp.obj
+src/systems/point_light_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj
+.PHONY : src/systems/point_light_system.cpp.obj
 
-src/simple_render_system.i: src/simple_render_system.cpp.i
-.PHONY : src/simple_render_system.i
+src/systems/point_light_system.i: src/systems/point_light_system.cpp.i
+.PHONY : src/systems/point_light_system.i
 
 # target to preprocess a source file
-src/simple_render_system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.i
-.PHONY : src/simple_render_system.cpp.i
+src/systems/point_light_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.i
+.PHONY : src/systems/point_light_system.cpp.i
 
-src/simple_render_system.s: src/simple_render_system.cpp.s
-.PHONY : src/simple_render_system.s
+src/systems/point_light_system.s: src/systems/point_light_system.cpp.s
+.PHONY : src/systems/point_light_system.s
 
 # target to generate assembly for a file
-src/simple_render_system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.s
-.PHONY : src/simple_render_system.cpp.s
+src/systems/point_light_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.s
+.PHONY : src/systems/point_light_system.cpp.s
+
+src/systems/simple_render_system.obj: src/systems/simple_render_system.cpp.obj
+.PHONY : src/systems/simple_render_system.obj
+
+# target to build an object file
+src/systems/simple_render_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj
+.PHONY : src/systems/simple_render_system.cpp.obj
+
+src/systems/simple_render_system.i: src/systems/simple_render_system.cpp.i
+.PHONY : src/systems/simple_render_system.i
+
+# target to preprocess a source file
+src/systems/simple_render_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.i
+.PHONY : src/systems/simple_render_system.cpp.i
+
+src/systems/simple_render_system.s: src/systems/simple_render_system.cpp.s
+.PHONY : src/systems/simple_render_system.s
+
+# target to generate assembly for a file
+src/systems/simple_render_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.s
+.PHONY : src/systems/simple_render_system.cpp.s
 
 # Help Target
 help:
@@ -617,9 +641,12 @@ help:
 	@echo ... src/nve_window.obj
 	@echo ... src/nve_window.i
 	@echo ... src/nve_window.s
-	@echo ... src/simple_render_system.obj
-	@echo ... src/simple_render_system.i
-	@echo ... src/simple_render_system.s
+	@echo ... src/systems/point_light_system.obj
+	@echo ... src/systems/point_light_system.i
+	@echo ... src/systems/point_light_system.s
+	@echo ... src/systems/simple_render_system.obj
+	@echo ... src/systems/simple_render_system.i
+	@echo ... src/systems/simple_render_system.s
 .PHONY : help
 
 

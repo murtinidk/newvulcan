@@ -79,9 +79,15 @@
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/newvulkan.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g -o CMakeFiles\\newvulkan.dir\\src\\simple_render_system.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\simple_render_system.cpp",
-  "file": "C:/Users/marti/Documents/newvulcan/src/simple_render_system.cpp",
-  "output": "CMakeFiles/newvulkan.dir/src/simple_render_system.cpp.obj"
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/newvulkan.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g -o CMakeFiles\\newvulkan.dir\\src\\systems\\point_light_system.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\systems\\point_light_system.cpp",
+  "file": "C:/Users/marti/Documents/newvulcan/src/systems/point_light_system.cpp",
+  "output": "CMakeFiles/newvulkan.dir/src/systems/point_light_system.cpp.obj"
+},
+{
+  "directory": "C:/Users/marti/Documents/newvulcan/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/newvulkan.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -Wall -Wextra -g -o CMakeFiles\\newvulkan.dir\\src\\systems\\simple_render_system.cpp.obj -c C:\\Users\\marti\\Documents\\newvulcan\\src\\systems\\simple_render_system.cpp",
+  "file": "C:/Users/marti/Documents/newvulcan/src/systems/simple_render_system.cpp",
+  "output": "CMakeFiles/newvulkan.dir/src/systems/simple_render_system.cpp.obj"
 },
 {
   "directory": "C:/Users/marti/Documents/newvulcan/build/libs/GLFW/src",

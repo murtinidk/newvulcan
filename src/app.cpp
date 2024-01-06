@@ -3,7 +3,8 @@
 
 #include "keyboard_movement_controller.hpp"
 #include "nve_camera.hpp"
-#include "simple_render_system.hpp"
+#include "systems/simple_render_system.hpp"
+#include "systems/point_light_system.hpp"
 #include "nve_buffer.hpp"
 
 #define GLM_FORCE_RADIANS
@@ -24,6 +25,9 @@ namespace nve
 
   struct GlobalUbo
   {
+
+    glm::mat4 projection{1.f};
+    glm::mat4 view{1.f};
     alignas(16) glm::vec4 ambientColor{1.f, 1.f, 1.f, 0.02f};
     alignas(16) glm::vec3 lightPosition{-1.f, 1.f, 1.f};
     alignas(16) glm::vec4 lightColor{1.f, 1.f, 1.f, 1.f};
@@ -71,6 +75,10 @@ namespace nve
     }
 
     SimpleRenderSystem simpleRenderSystem{
+        nveDevice,
+        nveRenderer.getSwapChainRenderPass(),
+        globalSetLayout->getDescriptorSetLayout()};
+    PointLightSystem pointLightSystem{
         nveDevice,
         nveRenderer.getSwapChainRenderPass(),
         globalSetLayout->getDescriptorSetLayout()};
@@ -122,12 +130,15 @@ namespace nve
 
         // update
         GlobalUbo ubo{};
+        ubo.projection = frameInfo.camera.getProjection();
+        ubo.view = frameInfo.camera.getView();
         uboBuffers[frameIndex]->writeToBuffer(&ubo);
         uboBuffers[frameIndex]->flush();
 
         // render
         nveRenderer.beginSwapChainRenderPass(commandBuffer);
         simpleRenderSystem.renderGameObjects(frameInfo);
+        pointLightSystem.render(frameInfo);
         nveRenderer.endSwapChainRenderPass(commandBuffer);
         nveRenderer.endFrame();
       }

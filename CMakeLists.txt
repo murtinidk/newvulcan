@@ -13,10 +13,11 @@ add_compile_options("-Wall" "-Wextra" "-g")
 
 #set(SOURCE_FILES src/main.cpp src/nve_window.cpp src/nve_window.hpp src/app.cpp src/app.hpp src/nve_pipeline.cpp src/nve_pipeline.hpp src/nve_device.cpp src/nve_device.hpp src/nve_swap_chain.cpp src/nve_swap_chain.hpp src/nve_model.cpp src/nve_model.hpp src/nve_game_object.cpp src/nve_game_object.hpp src/nve_renderer.cpp src/nve_renderer.hpp src/simple_render_system.cpp src/simple_render_system.hpp src/nve_camera.cpp src/nve_camera.hpp src/keyboard_movement_controller.cpp src/keyboard_movement_controller.hpp)
 # Set the source files directory
-set(SOURCE_FILES_DIR ${PROJECT_SOURCE_DIR}/src)
+set(SOURCE_FILES_DIR ${PROJECT_SOURCE_DIR}/src )
+set(SYSTEM_FILES_DIR ${PROJECT_SOURCE_DIR}/src/systems)
 
 # Get all .cpp and .hpp files in the source files directory
-file(GLOB SOURCE_FILES ${SOURCE_FILES_DIR}/*.cpp ${SOURCE_FILES_DIR}/*.hpp)
+file(GLOB SOURCE_FILES ${SOURCE_FILES_DIR}/*.cpp ${SOURCE_FILES_DIR}/*.hpp ${SYSTEM_FILES_DIR}/*.cpp ${SYSTEM_FILES_DIR}/*.hpp)
 
 # Find GLFW
 add_subdirectory(libs/GLFW)

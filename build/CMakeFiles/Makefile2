@@ -149,12 +149,12 @@ CMakeFiles/newvulkan.dir/all: CMakeFiles/compile_shaders.dir/all
 CMakeFiles/newvulkan.dir/all: libs/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\newvulkan.dir\build.make CMakeFiles/newvulkan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target newvulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target newvulkan"
 .PHONY : CMakeFiles/newvulkan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/newvulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Documents\newvulcan\build\CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Documents\newvulcan\build\CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/newvulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Documents\newvulcan\build\CMakeFiles 0
 .PHONY : CMakeFiles/newvulkan.dir/rule
@@ -253,7 +253,7 @@ libs/GLFW/src/CMakeFiles/glfw.dir/clean:
 libs/GLFW/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs\GLFW\src\CMakeFiles\update_mappings.dir\build.make libs/GLFW/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\GLFW\src\CMakeFiles\update_mappings.dir\build.make libs/GLFW/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=38 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\marti\Documents\newvulcan\build\CMakeFiles --progress-num=39 "Built target update_mappings"
 .PHONY : libs/GLFW/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.

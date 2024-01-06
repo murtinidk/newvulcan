@@ -11,6 +11,8 @@ layout(location = 2) out vec3 fragNormalWorld;
 
 layout(set = 0, binding = 0) uniform UniformBufferObject
 {
+  mat4 projection;
+  mat4 view;
   vec4 ambientLightColor;
   vec3 lightPosition;
   vec4 lightColor;
@@ -18,14 +20,13 @@ layout(set = 0, binding = 0) uniform UniformBufferObject
 
 layout(push_constant) uniform Push
 {
-  mat4 projectionViewMatrix;
   mat4 modelMatrix;
 } push;
 
 void main()
 {
   vec4 positionWorld = push.modelMatrix * vec4(position, 1.0);
-  gl_Position = push.projectionViewMatrix * positionWorld;
+  gl_Position = ubo.projection * ubo.view * positionWorld;
 
   //* this is only if scale is uniform! 
   fragNormalWorld = normalize(mat3(push.modelMatrix) * normal);

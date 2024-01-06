@@ -8,6 +8,8 @@ layout(location = 0) out vec4 outColor;
 
 layout(set = 0, binding = 0) uniform UniformBufferObject
 {
+  mat4 projection;
+  mat4 view;
   vec4 ambientLightColor;
   vec3 lightPosition;
   vec4 lightColor;
@@ -15,7 +17,6 @@ layout(set = 0, binding = 0) uniform UniformBufferObject
 
 layout(push_constant) uniform Push
 {
-  mat4 projectionViewMatrix;
   mat4 modelMatrix;
 } push;
 

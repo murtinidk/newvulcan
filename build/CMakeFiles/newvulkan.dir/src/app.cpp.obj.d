@@ -375,9 +375,13 @@ CMakeFiles/newvulkan.dir/src/app.cpp.obj: \
   C:\Users\marti\Documents\newvulcan\src\nve_swap_chain.hpp \
   C:\Users\marti\Documents\newvulcan\src\keyboard_movement_controller.hpp \
   C:\Users\marti\Documents\newvulcan\src\nve_camera.hpp \
-  C:\Users\marti\Documents\newvulcan\src\simple_render_system.hpp \
-  C:\Users\marti\Documents\newvulcan\src\nve_pipeline.hpp \
-  C:\Users\marti\Documents\newvulcan\src\nve_frame_info.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\simple_render_system.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\..\nve_camera.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\..\nve_device.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\..\nve_game_object.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\..\nve_pipeline.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\..\nve_frame_info.hpp \
+  C:\Users\marti\Documents\newvulcan\src\systems\point_light_system.hpp \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\array \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\chrono \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\__msvc_chrono.hpp \
