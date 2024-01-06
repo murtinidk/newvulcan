@@ -4,6 +4,7 @@
 #include "keyboard_movement_controller.hpp"
 #include "nve_camera.hpp"
 #include "simple_render_system.hpp"
+#include "nve_buffer.hpp"
 
 #define GLM_FORCE_RADIANS
 #define GLM_FORCE_DEPTH_ZERO_TO_ONE
@@ -21,8 +22,19 @@
 namespace nve
 {
 
+  struct GlobalUbo
+  {
+    alignas(16) glm::vec4 ambientColor{1.f, 1.f, 1.f, 0.02f};
+    alignas(16) glm::vec3 lightPosition{-1.f, 1.f, 1.f};
+    alignas(16) glm::vec4 lightColor{1.f, 1.f, 1.f, 1.f};
+  };
+
   NveApp::NveApp()
   {
+    globalPool = NveDescriptorPool::Builder(nveDevice)
+                     .setMaxSets(NveSwapChain::MAX_FRAMES_IN_FLIGHT)
+                     .addPoolSize(VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER, NveSwapChain::MAX_FRAMES_IN_FLIGHT)
+                     .build();
     loadGameObjects();
   }
 
@@ -33,13 +45,42 @@ namespace nve
   void
   NveApp::run()
   {
-    SimpleRenderSystem simpleRenderSystem{nveDevice, nveRenderer.getSwapChainRenderPass()};
+    std::vector<std::unique_ptr<NveBuffer>> uboBuffers(NveSwapChain::MAX_FRAMES_IN_FLIGHT);
+    for (int i = 0; size_t(i) < uboBuffers.size(); i++)
+    {
+      uboBuffers[i] = std::make_unique<NveBuffer>(
+          nveDevice,
+          sizeof(GlobalUbo),
+          1,
+          VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT,
+          VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT);
+      uboBuffers[i]->map();
+    }
+
+    auto globalSetLayout = NveDescriptorSetLayout::Builder(nveDevice)
+                               .addBinding(0, VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER, VK_SHADER_STAGE_ALL_GRAPHICS)
+                               .build();
+
+    std::vector<VkDescriptorSet> globalDescriptorSet(NveSwapChain::MAX_FRAMES_IN_FLIGHT);
+    for (int i = 0; size_t(i) < globalDescriptorSet.size(); i++)
+    {
+      auto bufferInfo = uboBuffers[i]->descriptorInfo();
+      NveDescriptorWriter(*globalSetLayout, *globalPool)
+          .writeBuffer(0, &bufferInfo)
+          .build(globalDescriptorSet[i]);
+    }
+
+    SimpleRenderSystem simpleRenderSystem{
+        nveDevice,
+        nveRenderer.getSwapChainRenderPass(),
+        globalSetLayout->getDescriptorSetLayout()};
     NveCamera camera{};
-    camera.setViewYXZ(glm::vec3{0.f}, glm::vec3{0.f, 0.f, 0.f});
+    // camera.setViewYXZ(glm::vec3{0.f}, glm::vec3{0.f, 0.f, 0.f});
     // camera.setViewDirection(glm::vec3{0.f}, glm::vec3{1.f, 0.f, 0.f});
     // camera.setViewTarget(glm::vec3{0.f, 0.f, 0.f}, glm::vec3{2.5f, 0.f, 0.f});
 
     auto viewerObject = NveGameObject::createGameObject();
+    viewerObject.transform.translation.x = -2.5f;
     KeyboardMovementController cameraController{};
     MouseLookController mouseController{nveWindow.getGLFWwindow()};
 
@@ -55,19 +96,38 @@ namespace nve
 
       frameTime = glm::min(frameTime, MAX_FRAME_TIME);
 
-      std::cout << "rotations: x: " << viewerObject.transform.rotation.x << " y: " << viewerObject.transform.rotation.y << " z: " << viewerObject.transform.rotation.z << '\n';
+      // std::cout << "rotations: x: " << viewerObject.transform.rotation.x << " y: " << viewerObject.transform.rotation.y << " z: " << viewerObject.transform.rotation.z << '\n';
 
       cameraController.moveInPlaneXZ(nveWindow.getGLFWwindow(), frameTime, viewerObject);
       mouseController.UpdateMouse(nveWindow.getGLFWwindow(), viewerObject);
-      camera.setViewYXZdownX(viewerObject.transform.translation, viewerObject.transform.rotation);
+      // camera.setViewZXY(glm::vec3{2.5f, 2.5f, 0.f}, glm::vec3{0.f, 1.f, -glm::half_pi<float>()});
+      // camera.setViewZXY(glm::vec3{0.f, 0.f, 0.f}, glm::vec3{0.f, 0.f, 0.f});
+      camera.setViewZXY(viewerObject.transform.translation, viewerObject.transform.rotation);
+      // camera.PrintMat4();
 
       float aspect = nveRenderer.getAspectRatio();
-      camera.setPerspectiveProjection(glm::radians(50.f), aspect, 0.1f, 10.f);
+      camera.setPerspectiveProjection(glm::radians(50.f), aspect, 0.1f, 1000.f);
+      // camera.setOrthographicProjection(-aspect, aspect, -1.f, 1.f, 0.1f, 10.f);
 
       if (auto commandBuffer = nveRenderer.beginFrame())
       {
+        int frameIndex = nveRenderer.getFrameIndex();
+        FrameInfo frameInfo{
+            frameIndex,
+            frameTime,
+            commandBuffer,
+            camera,
+            globalDescriptorSet[frameIndex],
+            gameObjects};
+
+        // update
+        GlobalUbo ubo{};
+        uboBuffers[frameIndex]->writeToBuffer(&ubo);
+        uboBuffers[frameIndex]->flush();
+
+        // render
         nveRenderer.beginSwapChainRenderPass(commandBuffer);
-        simpleRenderSystem.renderGameObjects(commandBuffer, gameObjects, camera);
+        simpleRenderSystem.renderGameObjects(frameInfo);
         nveRenderer.endSwapChainRenderPass(commandBuffer);
         nveRenderer.endFrame();
       }
@@ -76,79 +136,32 @@ namespace nve
     vkDeviceWaitIdle(nveDevice.device());
   }
 
-  // temporary helper function, creates a 1x1x1 cube centered at offset
-  // clang-format off
-  std::unique_ptr<NveModel> createCubeModel(NveDevice &device, glm::vec3 offset)
-  {
-    std::vector<NveModel::Vertex> vertices{
-
-        // left face (white)
-        {{-.5f, -.5f, -.5f}, {.9f, .9f, .9f}},
-        {{-.5f, .5f, .5f}, {.9f, .9f, .9f}},
-        {{-.5f, -.5f, .5f}, {.9f, .9f, .9f}},
-        {{-.5f, -.5f, -.5f}, {.9f, .9f, .9f}},
-        {{-.5f, .5f, -.5f}, {.9f, .9f, .9f}},
-        {{-.5f, .5f, .5f}, {.9f, .9f, .9f}},
-
-        // right face (yellow)
-        {{.5f, -.5f, -.5f}, {.8f, .8f, .1f}},
-        {{.5f, .5f, .5f}, {.8f, .8f, .1f}},
-        {{.5f, -.5f, .5f}, {.8f, .8f, .1f}},
-        {{.5f, -.5f, -.5f}, {.8f, .8f, .1f}},
-        {{.5f, .5f, -.5f}, {.8f, .8f, .1f}},
-        {{.5f, .5f, .5f}, {.8f, .8f, .1f}},
-
-        // top face (orange, remember y axis points down)
-        {{-.5f, -.5f, -.5f}, {.9f, .6f, .1f}},
-        {{.5f, -.5f, .5f}, {.9f, .6f, .1f}},
-        {{-.5f, -.5f, .5f}, {.9f, .6f, .1f}},
-        {{-.5f, -.5f, -.5f}, {.9f, .6f, .1f}},
-        {{.5f, -.5f, -.5f}, {.9f, .6f, .1f}},
-        {{.5f, -.5f, .5f}, {.9f, .6f, .1f}},
-
-        // bottom face (red)
-        {{-.5f, .5f, -.5f}, {.8f, .1f, .1f}},
-        {{.5f, .5f, .5f}, {.8f, .1f, .1f}},
-        {{-.5f, .5f, .5f}, {.8f, .1f, .1f}},
-        {{-.5f, .5f, -.5f}, {.8f, .1f, .1f}},
-        {{.5f, .5f, -.5f}, {.8f, .1f, .1f}},
-        {{.5f, .5f, .5f}, {.8f, .1f, .1f}},
-
-        // nose face (blue)
-        {{-.5f, -.5f, 0.5f}, {.1f, .1f, .8f}},
-        {{.5f, .5f, 0.5f}, {.1f, .1f, .8f}},
-        {{-.5f, .5f, 0.5f}, {.1f, .1f, .8f}},
-        {{-.5f, -.5f, 0.5f}, {.1f, .1f, .8f}},
-        {{.5f, -.5f, 0.5f}, {.1f, .1f, .8f}},
-        {{.5f, .5f, 0.5f}, {.1f, .1f, .8f}},
-
-        // tail face (green)
-        {{-.5f, -.5f, -0.5f}, {.1f, .8f, .1f}},
-        {{.5f, .5f, -0.5f}, {.1f, .8f, .1f}},
-        {{-.5f, .5f, -0.5f}, {.1f, .8f, .1f}},
-        {{-.5f, -.5f, -0.5f}, {.1f, .8f, .1f}},
-        {{.5f, -.5f, -0.5f}, {.1f, .8f, .1f}},
-        {{.5f, .5f, -0.5f}, {.1f, .8f, .1f}},
-
-    };
-    for (auto &v : vertices)
-    {
-      v.position += offset;
-    }
-    return std::make_unique<NveModel>(device, vertices);
-  }
-  // clang-format on
-
   void
   NveApp::loadGameObjects()
   {
-    std::shared_ptr<NveModel> nveModel = createCubeModel(nveDevice, {0.f, 0.f, 0.f});
+    std::shared_ptr<NveModel> nveModel = NveModel::createModelFromFile(nveDevice, "../models/flat_vase.obj");
+    auto flat_vase = NveGameObject::createGameObject();
+    flat_vase.model = nveModel;
+    flat_vase.transform.translation = {0.f, 1.f, -0.5f};
+    flat_vase.transform.scale = 3.f;
+    flat_vase.transform.rotation = {-glm::half_pi<float>(), 0.f, 0.f};
+    gameObjects.emplace(flat_vase.getId(), std::move(flat_vase));
 
-    auto cube = NveGameObject::createGameObject();
-    cube.model = nveModel;
-    cube.transform.translation = {2.5f, 0.f, 0.f};
-    cube.transform.scale = {0.5f, 0.5f, 0.5f};
-    gameObjects.push_back(std::move(cube));
+    nveModel = NveModel::createModelFromFile(nveDevice, "../models/smooth_vase.obj");
+    auto smooth_vase = NveGameObject::createGameObject();
+    smooth_vase.model = nveModel;
+    smooth_vase.transform.translation = {0.f, -1.f, -0.5f};
+    smooth_vase.transform.scale = 3.f;
+    smooth_vase.transform.rotation = {-glm::half_pi<float>(), 0.f, 0.f};
+    gameObjects.emplace(smooth_vase.getId(), std::move(smooth_vase));
+
+    nveModel = NveModel::createModelFromFile(nveDevice, "../models/quad.obj");
+    auto floor = NveGameObject::createGameObject();
+    floor.model = nveModel;
+    floor.transform.translation = {0.f, 0.f, -0.5f};
+    floor.transform.scale = 3.f;
+    floor.transform.rotation = {-glm::half_pi<float>(), 0.f, 0.f};
+    gameObjects.emplace(floor.getId(), std::move(floor));
   }
 
 } // namespace nve

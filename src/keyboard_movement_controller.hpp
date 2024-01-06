@@ -14,8 +14,18 @@ namespace nve
 
     void UpdateMouse(GLFWwindow *window, NveGameObject &gameObject);
 
+    // void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mods);
+
+    struct KeyMappings
+    {
+      int freeMouse = GLFW_KEY_TAB;
+    };
+
+    KeyMappings keys{};
+
   private:
     GLFWcursor *cursor_;
+    bool freeMouse = false;
   };
 
   class KeyboardMovementController

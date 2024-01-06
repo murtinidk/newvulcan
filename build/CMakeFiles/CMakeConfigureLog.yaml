@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
       - "CMakeLists.txt:4 (project)"
     message: |
-      The system is: Windows - 10.0.22635 - AMD64
+      The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is Clang, found in:
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/3.28.1/CompilerIdC/a.exe
+        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/3.26.4/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
@@ -43,9 +43,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
@@ -53,9 +53,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -70,14 +70,14 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is Clang, found in:
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Detecting CXX compiler /showIncludes prefix:
@@ -85,9 +85,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Detecting CXX compiler /showIncludes prefix:
@@ -95,16 +95,15 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-hzomt5"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-hzomt5"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-05rm32"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-05rm32"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -112,26 +111,30 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-hzomt5'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-05rm32
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_96dab
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_96dab.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_96dab.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_96dab.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_96dab.dir/CMakeCCompilerABI.c.obj -o cmTC_96dab.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_96dab.lib -Xlinker /pdb:cmTC_96dab.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_744c7/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_744c7.dir\\build.make CMakeFiles/cmTC_744c7.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-05rm32'
+        Building C object CMakeFiles/cmTC_744c7.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_744c7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_744c7.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_744c7.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_744c7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_744c7.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_744c7.dir\\objects1.rsp -o cmTC_744c7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_744c7.lib -Xlinker /pdb:C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05rm32\\cmTC_744c7.pdb -Xlinker /version:0.0  
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-05rm32'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-7oohh6"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-7oohh6"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-fc778g"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-fc778g"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -139,29 +142,33 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-7oohh6'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-fc778g
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c2256
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c2256.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_c2256.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_c2256.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_c2256.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c2256.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c2256.lib -Xlinker /pdb:cmTC_c2256.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_2b493/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2b493.dir\\build.make CMakeFiles/cmTC_2b493.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-fc778g'
+        Building CXX object CMakeFiles/cmTC_2b493.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2b493.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_2b493.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_2b493.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_2b493.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2b493.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_2b493.dir\\objects1.rsp -o cmTC_2b493.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2b493.lib -Xlinker /pdb:C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fc778g\\cmTC_2b493.pdb -Xlinker /version:0.0  
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-fc778g'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
       - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-dyvwn3"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-dyvwn3"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-l6r0vv"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-l6r0vv"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -169,29 +176,33 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-dyvwn3'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-l6r0vv
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_50260
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_50260.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_50260.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_50260.dir/feature_tests.cxx.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-dyvwn3/feature_tests.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_50260.dir/feature_tests.cxx.obj -o cmTC_50260.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_50260.lib -Xlinker /pdb:cmTC_50260.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_5e717/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5e717.dir\\build.make CMakeFiles/cmTC_5e717.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-l6r0vv'
+        Building CXX object CMakeFiles/cmTC_5e717.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_5e717.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_5e717.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_5e717.dir\\feature_tests.cxx.obj -c C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6r0vv\\feature_tests.cxx
+        Linking CXX executable cmTC_5e717.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5e717.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_5e717.dir\\objects1.rsp -o cmTC_5e717.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5e717.lib -Xlinker /pdb:C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6r0vv\\cmTC_5e717.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_5e717.dir\\linkLibs.rsp 
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-l6r0vv'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
       - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-udps2h"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-udps2h"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d7li16"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d7li16"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -199,1279 +210,32 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-udps2h'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d7li16
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3af29
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_3af29.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_3af29.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_3af29.dir/feature_tests.cxx.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-udps2h/feature_tests.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_3af29.dir/feature_tests.cxx.obj -o cmTC_3af29.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3af29.lib -Xlinker /pdb:cmTC_3af29.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
-      - "libs/SDL/CMakeLists.txt:82 (check_symbol_exists)"
-    checks:
-      - "Looking for __GLIBC__"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vvzy"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vvzy"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "LIBC_IS_GLIBC"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vvzy'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_44cd1
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_44cd1.dir/CheckSymbolExists.c.obj -MF CMakeFiles\\cmTC_44cd1.dir\\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_44cd1.dir/CheckSymbolExists.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vvzy/CheckSymbolExists.c
-        FAILED: CMakeFiles/cmTC_44cd1.dir/CheckSymbolExists.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_44cd1.dir/CheckSymbolExists.c.obj -MF CMakeFiles\\cmTC_44cd1.dir\\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_44cd1.dir/CheckSymbolExists.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vvzy/CheckSymbolExists.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vvzy/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'\x0d
-          return ((int*)(&__GLIBC__))[argc];\x0d
-                          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:28 (_internal_check_cpu_architecture)"
-      - "libs/SDL/CMakeLists.txt:139 (check_cpu_architecture)"
-    checks:
-      - "Performing Test CHECK_CPU_ARCHITECTURE_X86"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d2vz6m"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d2vz6m"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CHECK_CPU_ARCHITECTURE_X86"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d2vz6m'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_b6f68
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_X86  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b6f68.dir/src.c.obj -MF CMakeFiles\\cmTC_b6f68.dir\\src.c.obj.d -o CMakeFiles/cmTC_b6f68.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d2vz6m/src.c
-        FAILED: CMakeFiles/cmTC_b6f68.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_X86  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b6f68.dir/src.c.obj -MF CMakeFiles\\cmTC_b6f68.dir\\src.c.obj.d -o CMakeFiles/cmTC_b6f68.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d2vz6m/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d2vz6m/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
-          choke\x0d
-          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:30 (_internal_check_cpu_architecture)"
-      - "libs/SDL/CMakeLists.txt:140 (check_cpu_architecture)"
-    checks:
-      - "Performing Test CHECK_CPU_ARCHITECTURE_X64"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vqlwc2"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vqlwc2"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CHECK_CPU_ARCHITECTURE_X64"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vqlwc2'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e0501
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_X64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e0501.dir/src.c.obj -MF CMakeFiles\\cmTC_e0501.dir\\src.c.obj.d -o CMakeFiles/cmTC_e0501.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vqlwc2/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_e0501.dir/src.c.obj -o cmTC_e0501.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e0501.lib -Xlinker /pdb:cmTC_e0501.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6672f/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6672f.dir\\build.make CMakeFiles/cmTC_6672f.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d7li16'
+        Building CXX object CMakeFiles/cmTC_6672f.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_6672f.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_6672f.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_6672f.dir\\feature_tests.cxx.obj -c C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7li16\\feature_tests.cxx
+        Linking CXX executable cmTC_6672f.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6672f.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_6672f.dir\\objects1.rsp -o cmTC_6672f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6672f.lib -Xlinker /pdb:C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7li16\\cmTC_6672f.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_6672f.dir\\linkLibs.rsp 
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-d7li16'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:32 (_internal_check_cpu_architecture)"
-      - "libs/SDL/CMakeLists.txt:141 (check_cpu_architecture)"
-    checks:
-      - "Performing Test CHECK_CPU_ARCHITECTURE_ARM32"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2k92fz"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2k92fz"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CHECK_CPU_ARCHITECTURE_ARM32"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2k92fz'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_06cab
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM32  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_06cab.dir/src.c.obj -MF CMakeFiles\\cmTC_06cab.dir\\src.c.obj.d -o CMakeFiles/cmTC_06cab.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2k92fz/src.c
-        FAILED: CMakeFiles/cmTC_06cab.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM32  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_06cab.dir/src.c.obj -MF CMakeFiles\\cmTC_06cab.dir\\src.c.obj.d -o CMakeFiles/cmTC_06cab.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2k92fz/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2k92fz/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
-          choke\x0d
-          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:34 (_internal_check_cpu_architecture)"
-      - "libs/SDL/CMakeLists.txt:142 (check_cpu_architecture)"
-    checks:
-      - "Performing Test CHECK_CPU_ARCHITECTURE_ARM64"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ib7p29"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ib7p29"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CHECK_CPU_ARCHITECTURE_ARM64"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ib7p29'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a6f4a
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a6f4a.dir/src.c.obj -MF CMakeFiles\\cmTC_a6f4a.dir\\src.c.obj.d -o CMakeFiles/cmTC_a6f4a.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ib7p29/src.c
-        FAILED: CMakeFiles/cmTC_a6f4a.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a6f4a.dir/src.c.obj -MF CMakeFiles\\cmTC_a6f4a.dir\\src.c.obj.d -o CMakeFiles/cmTC_a6f4a.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ib7p29/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ib7p29/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
-          choke\x0d
-          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
-      - "libs/SDL/cmake/CheckCPUArchitecture.cmake:36 (_internal_check_cpu_architecture)"
-      - "libs/SDL/CMakeLists.txt:143 (check_cpu_architecture)"
-    checks:
-      - "Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-s94pkz"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-s94pkz"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CHECK_CPU_ARCHITECTURE_LOONGARCH64"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-s94pkz'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_2a088
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2a088.dir/src.c.obj -MF CMakeFiles\\cmTC_2a088.dir\\src.c.obj.d -o CMakeFiles/cmTC_2a088.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-s94pkz/src.c
-        FAILED: CMakeFiles/cmTC_2a088.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2a088.dir/src.c.obj -MF CMakeFiles\\cmTC_2a088.dir\\src.c.obj.d -o CMakeFiles/cmTC_2a088.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-s94pkz/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-s94pkz/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
-          choke\x0d
-          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "libs/SDL/CMakeLists.txt:578 (check_c_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_GCC_WALL"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-arj4qw"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-arj4qw"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_WALL"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-arj4qw'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_0d2fd
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_WALL  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -MD -MT CMakeFiles/cmTC_0d2fd.dir/src.c.obj -MF CMakeFiles\\cmTC_0d2fd.dir\\src.c.obj.d -o CMakeFiles/cmTC_0d2fd.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-arj4qw/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_0d2fd.dir/src.c.obj -o cmTC_0d2fd.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0d2fd.lib -Xlinker /pdb:cmTC_0d2fd.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "libs/SDL/CMakeLists.txt:588 (check_c_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_GCC_NO_STRICT_ALIASING"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-shzsgh"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-shzsgh"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_NO_STRICT_ALIASING"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-shzsgh'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c780f
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_NO_STRICT_ALIASING  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fno-strict-aliasing -MD -MT CMakeFiles/cmTC_c780f.dir/src.c.obj -MF CMakeFiles\\cmTC_c780f.dir\\src.c.obj.d -o CMakeFiles/cmTC_c780f.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-shzsgh/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_c780f.dir/src.c.obj -o cmTC_c780f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c780f.lib -Xlinker /pdb:cmTC_c780f.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "libs/SDL/CMakeLists.txt:593 (check_c_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6hx378"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6hx378"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_WDECLARATION_AFTER_STATEMENT"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6hx378'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_2ffed
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wdeclaration-after-statement -MD -MT CMakeFiles/cmTC_2ffed.dir/src.c.obj -MF CMakeFiles\\cmTC_2ffed.dir\\src.c.obj.d -o CMakeFiles/cmTC_2ffed.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6hx378/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_2ffed.dir/src.c.obj -o cmTC_2ffed.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2ffed.lib -Xlinker /pdb:cmTC_2ffed.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:613 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_GCC_ATOMICS"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-m0e79j"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-m0e79j"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_ATOMICS"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-m0e79j'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_b7654
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_ATOMICS  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b7654.dir/src.c.obj -MF CMakeFiles\\cmTC_b7654.dir\\src.c.obj.d -o CMakeFiles/cmTC_b7654.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-m0e79j/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_b7654.dir/src.c.obj -o cmTC_b7654.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b7654.lib -Xlinker /pdb:cmTC_b7654.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:632 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_GCC_FVISIBILITY"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-wrdd4q"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-wrdd4q"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_FVISIBILITY"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-wrdd4q'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_03c64
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_FVISIBILITY  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -fvisibility=hidden -Werror -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_03c64.dir/src.c.obj -MF CMakeFiles\\cmTC_03c64.dir\\src.c.obj.d -o CMakeFiles/cmTC_03c64.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-wrdd4q/src.c
-        FAILED: CMakeFiles/cmTC_03c64.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_FVISIBILITY  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -fvisibility=hidden -Werror -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_03c64.dir/src.c.obj -MF CMakeFiles\\cmTC_03c64.dir\\src.c.obj.d -o CMakeFiles/cmTC_03c64.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-wrdd4q/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-wrdd4q/src.c:3:8: error: SDL only uses visibility attributes in GCC 4 or newer\x0d
-              #error SDL only uses visibility attributes in GCC 4 or newer\x0d
-               ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "libs/SDL/CMakeLists.txt:642 (check_c_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_GCC_WSHADOW"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-rnalrp"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-rnalrp"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_WSHADOW"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-rnalrp'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_1ae08
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_WSHADOW  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wshadow -MD -MT CMakeFiles/cmTC_1ae08.dir/src.c.obj -MF CMakeFiles\\cmTC_1ae08.dir\\src.c.obj.d -o CMakeFiles/cmTC_1ae08.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-rnalrp/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_1ae08.dir/src.c.obj -o cmTC_1ae08.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1ae08.lib -Xlinker /pdb:cmTC_1ae08.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "libs/SDL/CMakeLists.txt:647 (check_c_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ve4xtu"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ve4xtu"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ve4xtu'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_daac5
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_GCC_WUNUSED_LOCAL_TYPEDEFS  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wunused-local-typedefs -MD -MT CMakeFiles/cmTC_daac5.dir/src.c.obj -MF CMakeFiles\\cmTC_daac5.dir\\src.c.obj.d -o CMakeFiles/cmTC_daac5.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ve4xtu/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_daac5.dir/src.c.obj -o cmTC_daac5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_daac5.lib -Xlinker /pdb:cmTC_daac5.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "libs/SDL/CMakeLists.txt:666 (check_c_compiler_flag)"
-    checks:
-      - "Performing Test HAVE_NO_UNDEFINED"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-bqjwo5"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-bqjwo5"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_NO_UNDEFINED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-bqjwo5'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_542a2
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_NO_UNDEFINED  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -Wl,--no-undefined -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_542a2.dir/src.c.obj -MF CMakeFiles\\cmTC_542a2.dir\\src.c.obj.d -o CMakeFiles/cmTC_542a2.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-bqjwo5/src.c
-        clang: warning: -Wl,--no-undefined: 'linker' input unused [-Wunused-command-line-argument]\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -Wl,--no-undefined -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_542a2.dir/src.c.obj -o cmTC_542a2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_542a2.lib -Xlinker /pdb:cmTC_542a2.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        lld-link: warning: ignoring unknown argument '--no-undefined'\x0d
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:718 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_MMX"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6ei1lf"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6ei1lf"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_MMX"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6ei1lf'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_f644e
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_MMX  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -mmmx -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f644e.dir/src.c.obj -MF CMakeFiles\\cmTC_f644e.dir\\src.c.obj.d -o CMakeFiles/cmTC_f644e.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-6ei1lf/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -mmmx -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_f644e.dir/src.c.obj -o cmTC_f644e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f644e.lib -Xlinker /pdb:cmTC_f644e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:741 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_3DNOW"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3nceaz"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3nceaz"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_3DNOW"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3nceaz'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c365c
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_3DNOW  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -m3dnow -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c365c.dir/src.c.obj -MF CMakeFiles\\cmTC_c365c.dir\\src.c.obj.d -o CMakeFiles/cmTC_c365c.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3nceaz/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -m3dnow -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_c365c.dir/src.c.obj -o cmTC_c365c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c365c.lib -Xlinker /pdb:cmTC_c365c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:759 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_SSE"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-36kn2x"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-36kn2x"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_SSE"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-36kn2x'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_b8f36
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_SSE  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -msse -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b8f36.dir/src.c.obj -MF CMakeFiles\\cmTC_b8f36.dir\\src.c.obj.d -o CMakeFiles/cmTC_b8f36.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-36kn2x/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -msse -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_b8f36.dir/src.c.obj -o cmTC_b8f36.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b8f36.lib -Xlinker /pdb:cmTC_b8f36.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:782 (check_c_source_compiles)"
-    checks:
-      - "Performing Test CPU_SUPPORTS_SSE2"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ivy5g4"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ivy5g4"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CPU_SUPPORTS_SSE2"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ivy5g4'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_575c3
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCPU_SUPPORTS_SSE2  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -msse2 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_575c3.dir/src.c.obj -MF CMakeFiles\\cmTC_575c3.dir\\src.c.obj.d -o CMakeFiles/cmTC_575c3.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-ivy5g4/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -msse2 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_575c3.dir/src.c.obj -o cmTC_575c3.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_575c3.lib -Xlinker /pdb:cmTC_575c3.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:806 (check_c_source_compiles)"
-    checks:
-      - "Performing Test CPU_SUPPORTS_SSE3"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-idjmay"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-idjmay"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CPU_SUPPORTS_SSE3"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-idjmay'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3f16a
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCPU_SUPPORTS_SSE3  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -msse3 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3f16a.dir/src.c.obj -MF CMakeFiles\\cmTC_3f16a.dir\\src.c.obj.d -o CMakeFiles/cmTC_3f16a.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-idjmay/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -msse3 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_3f16a.dir/src.c.obj -o cmTC_3f16a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3f16a.lib -Xlinker /pdb:cmTC_3f16a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:841 (check_include_file)"
-    checks:
-      - "Looking for immintrin.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-oufkk3"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-oufkk3"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_IMMINTRIN_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-oufkk3'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3ec43
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3ec43.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_3ec43.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_3ec43.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-oufkk3/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_3ec43.dir/CheckIncludeFile.c.obj -o cmTC_3ec43.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3ec43.lib -Xlinker /pdb:cmTC_3ec43.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:845 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_ALTIVEC_H_HDR"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b2ni9a"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b2ni9a"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_ALTIVEC_H_HDR"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b2ni9a'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_6f3b2
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6f3b2.dir/src.c.obj -MF CMakeFiles\\cmTC_6f3b2.dir\\src.c.obj.d -o CMakeFiles/cmTC_6f3b2.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b2ni9a/src.c
-        FAILED: CMakeFiles/cmTC_6f3b2.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6f3b2.dir/src.c.obj -MF CMakeFiles\\cmTC_6f3b2.dir\\src.c.obj.d -o CMakeFiles/cmTC_6f3b2.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b2ni9a/src.c
-        clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
-        In file included from C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b2ni9a/src.c:2:
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:13:2: error: "AltiVec support not enabled"
-        #error "AltiVec support not enabled"
-         ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:50:19: error: unknown type name 'vector'
-        static __inline__ vector signed char __ATTRS_o_ai vec_perm(
-                          ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:51:5: error: unknown type name 'vector'
-            vector signed char __a, vector signed char __b, vector unsigned char __c);
-            ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:51:29: error: unknown type name 'vector'
-            vector signed char __a, vector signed char __b, vector unsigned char __c);
-                                    ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:51:53: error: unknown type name 'vector'
-            vector signed char __a, vector signed char __b, vector unsigned char __c);
-                                                            ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:53:19: error: unknown type name 'vector'
-        static __inline__ vector unsigned char __ATTRS_o_ai
-                          ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:54:10: error: unknown type name 'vector'
-        vec_perm(vector unsigned char __a, vector unsigned char __b,
-                 ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:54:36: error: unknown type name 'vector'
-        vec_perm(vector unsigned char __a, vector unsigned char __b,
-                                           ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:55:10: error: unknown type name 'vector'
-                 vector unsigned char __c);
-                 ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:57:19: error: unknown type name 'vector'
-        static __inline__ vector bool char __ATTRS_o_ai
-                          ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:57:8: error: 'inline' can only appear on functions
-        static __inline__ vector bool char __ATTRS_o_ai
-               ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:57:30: error: expected ';' after top level declarator
-        static __inline__ vector bool char __ATTRS_o_ai
-                                     ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:58:10: error: unknown type name 'vector'
-        vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
-                 ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:58:22: error: expected ')'
-        vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
-                             ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:58:9: note: to match this '('
-        vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
-                ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:60:19: error: unknown type name 'vector'
-        static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
-                          ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:60:54: error: unknown type name 'vector'
-        static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
-                                                             ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:61:54: error: unknown type name 'vector'
-                                                             vector signed short __b,
-                                                             ^
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:62:54: error: unknown type name 'vector'
-                                                             vector unsigned char __c);\x0d
-                                                             ^\x0d
-        C:\\PROGRA~1\\LLVM\\lib\\clang\\16\\include\\altivec.h:64:19: error: unknown type name 'vector'\x0d
-        static __inline__ vector unsigned short __ATTRS_o_ai\x0d
-                          ^\x0d
-        fatal error: too many errors emitted, stopping now [-ferror-limit=]\x0d
-        20 errors generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:851 (check_c_source_compiles)"
-    checks:
-      - "Performing Test CPU_SUPPORTS_ALTIVEC"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "CPU_SUPPORTS_ALTIVEC"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_135bd
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_135bd.dir/src.c.obj -MF CMakeFiles\\cmTC_135bd.dir\\src.c.obj.d -o CMakeFiles/cmTC_135bd.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu/src.c
-        FAILED: CMakeFiles/cmTC_135bd.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_135bd.dir/src.c.obj -MF CMakeFiles\\cmTC_135bd.dir\\src.c.obj.d -o CMakeFiles/cmTC_135bd.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu/src.c
-        clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu/src.c:2:11: error: unknown type name 'vector'
-                  vector unsigned int vzero() {
-                  ^
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-q70adu/src.c:3:22: error: call to undeclared function 'vec_splat_u32'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
-                      return vec_splat_u32(0);\x0d
-                             ^\x0d
-        2 errors generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1124 (check_include_file)"
-    checks:
-      - "Looking for stdint.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8obte"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8obte"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_STDINT_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8obte'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a2feb
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a2feb.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_a2feb.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_a2feb.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8obte/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_a2feb.dir/CheckIncludeFile.c.obj -o cmTC_a2feb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a2feb.lib -Xlinker /pdb:cmTC_a2feb.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:1731 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_WIN32_CC"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kuslpy"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kuslpy"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_WIN32_CC"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kuslpy'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_50176
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_WIN32_CC  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_50176.dir/src.c.obj -MF CMakeFiles\\cmTC_50176.dir\\src.c.obj.d -o CMakeFiles/cmTC_50176.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kuslpy/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_50176.dir/src.c.obj -o cmTC_50176.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_50176.lib -Xlinker /pdb:cmTC_50176.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1773 (check_include_file)"
-    checks:
-      - "Looking for d3d9.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-xpq4yt"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-xpq4yt"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_D3D_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-xpq4yt'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_2b15d
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2b15d.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_2b15d.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_2b15d.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-xpq4yt/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_2b15d.dir/CheckIncludeFile.c.obj -o cmTC_2b15d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2b15d.lib -Xlinker /pdb:cmTC_2b15d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1774 (check_include_file)"
-    checks:
-      - "Looking for d3d11_1.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-z9cmjj"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-z9cmjj"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_D3D11_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-z9cmjj'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_df1c1
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_df1c1.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_df1c1.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_df1c1.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-z9cmjj/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_df1c1.dir/CheckIncludeFile.c.obj -o cmTC_df1c1.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_df1c1.lib -Xlinker /pdb:cmTC_df1c1.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:1775 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_D3D12_H"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-t1sns0"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-t1sns0"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_D3D12_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-t1sns0'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a54ad
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_D3D12_H  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a54ad.dir/src.c.obj -MF CMakeFiles\\cmTC_a54ad.dir\\src.c.obj.d -o CMakeFiles/cmTC_a54ad.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-t1sns0/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_a54ad.dir/src.c.obj -o cmTC_a54ad.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a54ad.lib -Xlinker /pdb:cmTC_a54ad.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1783 (check_include_file)"
-    checks:
-      - "Looking for ddraw.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vagf09"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vagf09"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_DDRAW_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vagf09'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_2543f
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2543f.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_2543f.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_2543f.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vagf09/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_2543f.dir/CheckIncludeFile.c.obj -o cmTC_2543f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2543f.lib -Xlinker /pdb:cmTC_2543f.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1784 (check_include_file)"
-    checks:
-      - "Looking for dsound.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8nn6s"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8nn6s"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_DSOUND_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8nn6s'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d2d21
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d2d21.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_d2d21.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_d2d21.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-v8nn6s/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_d2d21.dir/CheckIncludeFile.c.obj -o cmTC_d2d21.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d2d21.lib -Xlinker /pdb:cmTC_d2d21.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1785 (check_include_file)"
-    checks:
-      - "Looking for dinput.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vaazrz"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vaazrz"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_DINPUT_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vaazrz'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_73875
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_73875.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_73875.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_73875.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-vaazrz/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_73875.dir/CheckIncludeFile.c.obj -o cmTC_73875.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_73875.lib -Xlinker /pdb:cmTC_73875.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1789 (check_include_file)"
-    checks:
-      - "Looking for dxgi.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kqx6qs"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kqx6qs"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_DXGI_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kqx6qs'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_13d55
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_13d55.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_13d55.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_13d55.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-kqx6qs/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_13d55.dir/CheckIncludeFile.c.obj -o cmTC_13d55.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_13d55.lib -Xlinker /pdb:cmTC_13d55.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:1803 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_XINPUT_H"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-lm8r6p"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-lm8r6p"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_XINPUT_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-lm8r6p'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_9dfa5
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_XINPUT_H  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9dfa5.dir/src.c.obj -MF CMakeFiles\\cmTC_9dfa5.dir\\src.c.obj.d -o CMakeFiles/cmTC_9dfa5.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-lm8r6p/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_9dfa5.dir/src.c.obj -o cmTC_9dfa5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9dfa5.lib -Xlinker /pdb:cmTC_9dfa5.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:1807 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-cd1w87"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-cd1w87"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_XINPUT_GAMEPAD_EX"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-cd1w87'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_54bf8
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_XINPUT_GAMEPAD_EX  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_54bf8.dir/src.c.obj -MF CMakeFiles\\cmTC_54bf8.dir\\src.c.obj.d -o CMakeFiles/cmTC_54bf8.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-cd1w87/src.c
-        FAILED: CMakeFiles/cmTC_54bf8.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_XINPUT_GAMEPAD_EX  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_54bf8.dir/src.c.obj -MF CMakeFiles\\cmTC_54bf8.dir\\src.c.obj.d -o CMakeFiles/cmTC_54bf8.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-cd1w87/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-cd1w87/src.c:4:7: error: unknown type name 'XINPUT_GAMEPAD_EX'; did you mean 'XINPUT_GAMEPAD'?\x0d
-              XINPUT_GAMEPAD_EX x1;\x0d
-              ^~~~~~~~~~~~~~~~~\x0d
-              XINPUT_GAMEPAD\x0d
-        C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\xinput.h:203:3: note: 'XINPUT_GAMEPAD' declared here\x0d
-        } XINPUT_GAMEPAD, *PXINPUT_GAMEPAD;\x0d
-          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:1812 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_XINPUT_STATE_EX"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-a3efa6"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-a3efa6"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_XINPUT_STATE_EX"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-a3efa6'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_779d8
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_XINPUT_STATE_EX  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_779d8.dir/src.c.obj -MF CMakeFiles\\cmTC_779d8.dir\\src.c.obj.d -o CMakeFiles/cmTC_779d8.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-a3efa6/src.c
-        FAILED: CMakeFiles/cmTC_779d8.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_XINPUT_STATE_EX  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_779d8.dir/src.c.obj -MF CMakeFiles\\cmTC_779d8.dir\\src.c.obj.d -o CMakeFiles/cmTC_779d8.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-a3efa6/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-a3efa6/src.c:4:7: error: unknown type name 'XINPUT_STATE_EX'; did you mean 'XINPUT_STATE'?\x0d
-              XINPUT_STATE_EX s1;\x0d
-              ^~~~~~~~~~~~~~~\x0d
-              XINPUT_STATE\x0d
-        C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\xinput.h:209:3: note: 'XINPUT_STATE' declared here\x0d
-        } XINPUT_STATE, *PXINPUT_STATE;\x0d
-          ^\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "libs/SDL/CMakeLists.txt:1817 (check_c_source_compiles)"
-    checks:
-      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-uoulpt"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-uoulpt"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-uoulpt'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_4e62b
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_WINDOWS_GAMING_INPUT_H  -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_4e62b.dir/src.c.obj -MF CMakeFiles\\cmTC_4e62b.dir\\src.c.obj.d -o CMakeFiles/cmTC_4e62b.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-uoulpt/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_4e62b.dir/src.c.obj -o cmTC_4e62b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4e62b.lib -Xlinker /pdb:cmTC_4e62b.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1825 (check_include_file)"
-    checks:
-      - "Looking for tpcshrd.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b7khax"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b7khax"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_TPCSHRD_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b7khax'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_f9c55
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f9c55.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_f9c55.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_f9c55.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b7khax/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_f9c55.dir/CheckIncludeFile.c.obj -o cmTC_f9c55.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f9c55.lib -Xlinker /pdb:cmTC_f9c55.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1826 (check_include_file)"
-    checks:
-      - "Looking for roapi.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b3nic8"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b3nic8"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_ROAPI_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b3nic8'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_67e89
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_67e89.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_67e89.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_67e89.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-b3nic8/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_67e89.dir/CheckIncludeFile.c.obj -o cmTC_67e89.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_67e89.lib -Xlinker /pdb:cmTC_67e89.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1827 (check_include_file)"
-    checks:
-      - "Looking for mmdeviceapi.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-leegrb"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-leegrb"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_MMDEVICEAPI_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-leegrb'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_cb48e
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cb48e.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_cb48e.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_cb48e.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-leegrb/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_cb48e.dir/CheckIncludeFile.c.obj -o cmTC_cb48e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cb48e.lib -Xlinker /pdb:cmTC_cb48e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1828 (check_include_file)"
-    checks:
-      - "Looking for audioclient.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-48hm4f"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-48hm4f"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_AUDIOCLIENT_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-48hm4f'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_2d3e0
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2d3e0.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_2d3e0.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_2d3e0.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-48hm4f/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_2d3e0.dir/CheckIncludeFile.c.obj -o cmTC_2d3e0.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2d3e0.lib -Xlinker /pdb:cmTC_2d3e0.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1829 (check_include_file)"
-    checks:
-      - "Looking for sensorsapi.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-y11089"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-y11089"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_SENSORSAPI_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-y11089'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_5927d
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_5927d.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_5927d.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_5927d.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-y11089/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_5927d.dir/CheckIncludeFile.c.obj -o cmTC_5927d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5927d.lib -Xlinker /pdb:cmTC_5927d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "libs/SDL/CMakeLists.txt:1830 (check_include_file)"
-    checks:
-      - "Looking for shellscalingapi.h"
-    directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-h1lwrc"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-h1lwrc"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_C_FLAGS: " -idirafter \"C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos\""
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/marti/Documents/newvulcan/libs/SDL/cmake"
-    buildResult:
-      variable: "HAVE_SHELLSCALINGAPI_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-h1lwrc'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a3d5c
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a3d5c.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_a3d5c.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_a3d5c.dir/CheckIncludeFile.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-h1lwrc/CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -idirafter "C:/Users/marti/Documents/newvulcan/libs/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_a3d5c.dir/CheckIncludeFile.c.obj -o cmTC_a3d5c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a3d5c.lib -Xlinker /pdb:cmTC_a3d5c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
       - "libs/GLFW/CMakeLists.txt:56 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mqv34e"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mqv34e"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3xyjj2"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3xyjj2"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1480,33 +244,34 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mqv34e'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3xyjj2
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c559f
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c559f.dir/src.c.obj -MF CMakeFiles\\cmTC_c559f.dir\\src.c.obj.d -o CMakeFiles/cmTC_c559f.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mqv34e/src.c
-        FAILED: CMakeFiles/cmTC_c559f.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c559f.dir/src.c.obj -MF CMakeFiles\\cmTC_c559f.dir\\src.c.obj.d -o CMakeFiles/cmTC_c559f.dir/src.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mqv34e/src.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mqv34e/src.c:1:10: fatal error: 'pthread.h' file not found\x0d
-        #include <pthread.h>\x0d
-                 ^~~~~~~~~~~\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6ad90/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6ad90.dir\\build.make CMakeFiles/cmTC_6ad90.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3xyjj2'
+        Building C object CMakeFiles/cmTC_6ad90.dir/src.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6ad90.dir/src.c.obj -MF CMakeFiles\\cmTC_6ad90.dir\\src.c.obj.d -o CMakeFiles\\cmTC_6ad90.dir\\src.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3xyjj2\\src.c
+        C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3xyjj2\\src.c:1:10: fatal error: 'pthread.h' file not found
+            1 | #include <pthread.h>
+              |          ^~~~~~~~~~~
+        1 error generated.
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_6ad90.dir\\build.make:78: CMakeFiles/cmTC_6ad90.dir/src.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-3xyjj2'
+        mingw32-make.exe: *** [Makefile:126: cmTC_6ad90/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
       - "libs/GLFW/CMakeLists.txt:56 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-qw854j"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-qw854j"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mt68ar"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mt68ar"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1515,32 +280,35 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-qw854j'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mt68ar
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_be6c8
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_be6c8.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_be6c8.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_be6c8.dir/CheckFunctionExists.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-qw854j/CheckFunctionExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_be6c8.dir/CheckFunctionExists.c.obj -o cmTC_be6c8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_be6c8.lib -Xlinker /pdb:cmTC_be6c8.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: cmTC_be6c8.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_be6c8.dir/CheckFunctionExists.c.obj -o cmTC_be6c8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_be6c8.lib -Xlinker /pdb:cmTC_be6c8.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        lld-link: error: could not open 'pthreads.lib': no such file or directory\x0d
-        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_20503/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_20503.dir\\build.make CMakeFiles/cmTC_20503.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mt68ar'
+        Building C object CMakeFiles/cmTC_20503.dir/CheckFunctionExists.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_20503.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_20503.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles\\cmTC_20503.dir\\CheckFunctionExists.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt68ar\\CheckFunctionExists.c
+        Linking C executable cmTC_20503.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_20503.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_20503.dir\\objects1.rsp -o cmTC_20503.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_20503.lib -Xlinker /pdb:C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt68ar\\cmTC_20503.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_20503.dir\\linkLibs.rsp 
+        lld-link: error: could not open 'pthreads.lib': no such file or directory
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_20503.dir\\build.make:101: cmTC_20503.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-mt68ar'
+        mingw32-make.exe: *** [Makefile:126: cmTC_20503/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
       - "libs/GLFW/CMakeLists.txt:56 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vm78"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vm78"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-18ry1l"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-18ry1l"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1549,31 +317,34 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vm78'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-18ry1l
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_aff74
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_aff74.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_aff74.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_aff74.dir/CheckFunctionExists.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-44vm78/CheckFunctionExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_aff74.dir/CheckFunctionExists.c.obj -o cmTC_aff74.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_aff74.lib -Xlinker /pdb:cmTC_aff74.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: cmTC_aff74.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_aff74.dir/CheckFunctionExists.c.obj -o cmTC_aff74.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_aff74.lib -Xlinker /pdb:cmTC_aff74.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        lld-link: error: could not open 'pthread.lib': no such file or directory\x0d
-        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_eedf2/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_eedf2.dir\\build.make CMakeFiles/cmTC_eedf2.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-18ry1l'
+        Building C object CMakeFiles/cmTC_eedf2.dir/CheckFunctionExists.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_eedf2.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_eedf2.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles\\cmTC_eedf2.dir\\CheckFunctionExists.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-18ry1l\\CheckFunctionExists.c
+        Linking C executable cmTC_eedf2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_eedf2.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_eedf2.dir\\objects1.rsp -o cmTC_eedf2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_eedf2.lib -Xlinker /pdb:C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-18ry1l\\cmTC_eedf2.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_eedf2.dir\\linkLibs.rsp 
+        lld-link: error: could not open 'pthread.lib': no such file or directory
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_eedf2.dir\\build.make:101: cmTC_eedf2.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-18ry1l'
+        mingw32-make.exe: *** [Makefile:126: cmTC_eedf2/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:136 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:136 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
       - "libs/GLFW/CMakeLists.txt:56 (find_package)"
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-pmb0ih"
-      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-pmb0ih"
+      source: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2vn0zj"
+      binary: "C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2vn0zj"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1582,17 +353,19 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-pmb0ih'
+        Change Dir: C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2vn0zj
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_c249b
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c249b.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_c249b.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_c249b.dir/CheckForPthreads.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-pmb0ih/CheckForPthreads.c
-        FAILED: CMakeFiles/cmTC_c249b.dir/CheckForPthreads.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c249b.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_c249b.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_c249b.dir/CheckForPthreads.c.obj -c C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-pmb0ih/CheckForPthreads.c
-        C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-pmb0ih/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found\x0d
-        #include <pthread.h>\x0d
-                 ^~~~~~~~~~~\x0d
-        1 error generated.\x0d
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_11cee/fast && C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_11cee.dir\\build.make CMakeFiles/cmTC_11cee.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2vn0zj'
+        Building C object CMakeFiles/cmTC_11cee.dir/CheckForPthreads.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_11cee.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_11cee.dir\\CheckForPthreads.c.obj.d -o CMakeFiles\\cmTC_11cee.dir\\CheckForPthreads.c.obj -c C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vn0zj\\CheckForPthreads.c
+        C:\\Users\\marti\\Documents\\newvulcan\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vn0zj\\CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
+            1 | #include <pthread.h>
+              |          ^~~~~~~~~~~
+        1 error generated.
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_11cee.dir\\build.make:78: CMakeFiles/cmTC_11cee.dir/CheckForPthreads.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/marti/Documents/newvulcan/build/CMakeFiles/CMakeScratch/TryCompile-2vn0zj'
+        mingw32-make.exe: *** [Makefile:126: cmTC_11cee/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
 ...

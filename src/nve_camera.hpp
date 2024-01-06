@@ -17,13 +17,17 @@ namespace nve
     void setViewDirection(const glm::vec3 position, const glm::vec3 direction, const glm::vec3 up = glm::vec3{0.f, 0.f, 1.f});
     void setViewTarget(const glm::vec3 position, const glm::vec3 target, const glm::vec3 up = glm::vec3{0.f, 0.f, 1.f});
     void setViewYXZ(glm::vec3 position, glm::vec3 rotation);
-    void setViewYXZdownX(glm::vec3 position, glm::vec3 rotation);
+    void setViewZXY(glm::vec3 position, glm::vec3 rotation);
 
     const glm::mat4 &getProjection() const
     {
       return projectionMatrix;
     }
     const glm::mat4 &getView() const { return viewMatrix; }
+
+      void PrintMat4();
+      void PrintVec3(glm::vec3 vector);
+
 
   private:
     glm::mat4 projectionMatrix{1.f};

@@ -49,7 +49,7 @@ namespace nve
       swapChain = nullptr;
     }
 
-    for (int i = 0; i < depthImages.size(); i++)
+    for (int i = 0; size_t(i) < depthImages.size(); i++)
     {
       vkDestroyImageView(device.device(), depthImageViews[i], nullptr);
       vkDestroyImage(device.device(), depthImages[i], nullptr);
@@ -314,7 +314,7 @@ namespace nve
     depthImageMemorys.resize(imageCount());
     depthImageViews.resize(imageCount());
 
-    for (int i = 0; i < depthImages.size(); i++)
+    for (int i = 0; size_t(i) < depthImages.size(); i++)
     {
       VkImageCreateInfo imageInfo{};
       imageInfo.sType = VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO;
@@ -401,14 +401,14 @@ namespace nve
       }
     }
 
-    // for (const auto &availablePresentMode : availablePresentModes)
-    // {
-    //   if (availablePresentMode == VK_PRESENT_MODE_IMMEDIATE_KHR)
-    //   {
-    //     std::cout << "Present mode: Immediate" << std::endl;
-    //     return availablePresentMode;
-    //   }
-    // }
+    for (const auto &availablePresentMode : availablePresentModes)
+    {
+      if (availablePresentMode == VK_PRESENT_MODE_IMMEDIATE_KHR)
+      {
+        std::cout << "Present mode: Immediate" << std::endl;
+        return availablePresentMode;
+      }
+    }
 
     std::cout << "Present mode: V-Sync" << std::endl;
     return VK_PRESENT_MODE_FIFO_KHR;

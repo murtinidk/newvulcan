@@ -4,6 +4,7 @@
 #include "nve_device.hpp"
 #include "nve_game_object.hpp"
 #include "nve_pipeline.hpp"
+#include "nve_frame_info.hpp"
 
 // std
 #include <memory>
@@ -15,16 +16,16 @@ namespace nve
   class SimpleRenderSystem
   {
   public:
-    SimpleRenderSystem(NveDevice &device, VkRenderPass renderPass);
+    SimpleRenderSystem(NveDevice &device, VkRenderPass renderPass, VkDescriptorSetLayout globalSetLayout);
     ~SimpleRenderSystem();
 
     SimpleRenderSystem(const SimpleRenderSystem &) = delete;
     SimpleRenderSystem &operator=(const SimpleRenderSystem &) = delete;
 
-    void renderGameObjects(VkCommandBuffer commandBuffer, std::vector<NveGameObject> &gameObjects, const NveCamera &camera);
+    void renderGameObjects(FrameInfo &frameInfo);
 
   private:
-    void createPipelineLayout();
+    void createPipelineLayout(VkDescriptorSetLayout globalSetLayout);
     void createPipeline(VkRenderPass renderPass);
 
     NveDevice &nveDevice;

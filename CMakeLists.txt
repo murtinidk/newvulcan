@@ -31,9 +31,11 @@ add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_include_directories(${PROJECT_NAME} SYSTEM PUBLIC libs/GLWF/include)
 target_link_libraries(${PROJECT_NAME} PUBLIC glfw ${GLFW_LIBRARIES})
 target_include_directories(${PROJECT_NAME} SYSTEM PUBLIC libs/GLM)
+target_include_directories(${PROJECT_NAME} SYSTEM PUBLIC libs/TINY_OBJ_LOADER)
 target_include_directories(${PROJECT_NAME} SYSTEM PUBLIC ${Vulkan_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} PUBLIC ${Vulkan_LIBRARIES})
 
+# Recompile shaders just to be sure
 ADD_CUSTOM_TARGET(
     compile_shaders
     COMMAND cmd /c ${PROJECT_SOURCE_DIR}/compile.bat

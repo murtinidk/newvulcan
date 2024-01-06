@@ -15,14 +15,14 @@ namespace nve
 
   struct SimplePushConstantData
   {
-    glm::mat4 transform{1.f};
-    alignas(16) glm::vec3 color;
+    glm::mat4 viewMatrix{1.f};
+    glm::mat4 modelMatrix{1.f};
   };
 
-  SimpleRenderSystem::SimpleRenderSystem(NveDevice &device, VkRenderPass renderPass)
+  SimpleRenderSystem::SimpleRenderSystem(NveDevice &device, VkRenderPass renderPass, VkDescriptorSetLayout globalSetLayout)
       : nveDevice{device}
   {
-    createPipelineLayout();
+    createPipelineLayout(globalSetLayout);
     createPipeline(renderPass);
   }
 
@@ -32,17 +32,19 @@ namespace nve
   }
 
   void
-  SimpleRenderSystem::createPipelineLayout()
+  SimpleRenderSystem::createPipelineLayout(VkDescriptorSetLayout globalSetLayout)
   {
     VkPushConstantRange pushConstantRange{};
     pushConstantRange.stageFlags = VK_SHADER_STAGE_VERTEX_BIT | VK_SHADER_STAGE_FRAGMENT_BIT;
     pushConstantRange.offset = 0;
     pushConstantRange.size = sizeof(SimplePushConstantData);
 
+    std::vector<VkDescriptorSetLayout> descriptorSetLayouts{globalSetLayout};
+
     VkPipelineLayoutCreateInfo pipelineLayoutInfo{};
     pipelineLayoutInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO;
-    pipelineLayoutInfo.setLayoutCount = 0;
-    pipelineLayoutInfo.pSetLayouts = nullptr;
+    pipelineLayoutInfo.setLayoutCount = static_cast<uint32_t>(descriptorSetLayouts.size());
+    pipelineLayoutInfo.pSetLayouts = descriptorSetLayouts.data();
     pipelineLayoutInfo.pushConstantRangeCount = 1;
     pipelineLayoutInfo.pPushConstantRanges = &pushConstantRange;
 
@@ -65,27 +67,38 @@ namespace nve
         nveDevice, "../shaders/simple_shader.vert.spv", "../shaders/simple_shader.frag.spv", pipelineConfig);
   }
 
-  void SimpleRenderSystem::renderGameObjects(VkCommandBuffer commandBuffer, std::vector<NveGameObject> &gameObjects, const NveCamera &camera)
+  void SimpleRenderSystem::renderGameObjects(FrameInfo &frameInfo)
   {
-    nvePipeline->bind(commandBuffer);
+    nvePipeline->bind(frameInfo.commandBuffer);
 
-    auto viewProjection = camera.getProjection() * camera.getView();
+    vkCmdBindDescriptorSets(
+        frameInfo.commandBuffer,
+        VK_PIPELINE_BIND_POINT_GRAPHICS,
+        pipelineLayout,
+        0,
+        1,
+        &frameInfo.globalDescriptorSet,
+        0,
+        nullptr);
 
-    for (auto &obj : gameObjects)
+    for (auto &kv : frameInfo.gameObjects)
     {
+      auto &obj = kv.second;
+      if (obj.model == nullptr)
+        continue;
       SimplePushConstantData push{};
-      push.color = obj.color;
-      push.transform = viewProjection * obj.transform.mat4();
+      push.modelMatrix = obj.transform.mat4();
+      push.viewMatrix = frameInfo.camera.getProjection() * frameInfo.camera.getView();
 
       vkCmdPushConstants(
-          commandBuffer,
+          frameInfo.commandBuffer,
           pipelineLayout,
           VK_SHADER_STAGE_VERTEX_BIT | VK_SHADER_STAGE_FRAGMENT_BIT,
           0,
           sizeof(SimplePushConstantData),
           &push);
-      obj.model->bind(commandBuffer);
-      obj.model->draw(commandBuffer);
+      obj.model->bind(frameInfo.commandBuffer);
+      obj.model->draw(frameInfo.commandBuffer);
     }
   }
 
