@@ -24,6 +24,11 @@ namespace nve
     glm::mat4 mat4();
   };
 
+  struct PointLightComponent
+  {
+    float lightIntensity{1.f};
+  };
+
   class NveGameObject
   {
   public:
@@ -36,6 +41,8 @@ namespace nve
       return NveGameObject(currentId++);
     }
 
+    static NveGameObject makePointLight(float intesity = 1.f, float radius = 0.2f, glm::vec3 color = glm::vec3(1.f, 1.f, 1.f));
+
     NveGameObject(const NveGameObject &) = delete;
     NveGameObject &operator=(const NveGameObject &) = delete;
     NveGameObject(NveGameObject &&) = default;
@@ -43,10 +50,13 @@ namespace nve
 
     id_t getId() const { return id; }
 
-    std::shared_ptr<NveModel> model;
     glm::vec3 color{};
     TransformComponent transform{};
     bool isHidden{false};
+
+    // optional components
+    std::shared_ptr<NveModel> model{};
+    std::unique_ptr<PointLightComponent> pointLight = nullptr;
 
   private:
     NveGameObject(id_t objId) : id(objId) {}

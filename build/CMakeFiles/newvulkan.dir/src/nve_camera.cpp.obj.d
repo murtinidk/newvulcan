@@ -360,4 +360,55 @@ CMakeFiles/newvulkan.dir/src/nve_camera.cpp.obj: \
   C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\constants.hpp \
   C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\scalar_constants.hpp \
   C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\scalar_constants.inl \
-  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\constants.inl
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\constants.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtx\string_cast.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\type_precision.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\quaternion.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\matrix_transform.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\matrix_projection.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\matrix_projection.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\matrix_clip_space.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\matrix_clip_space.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\matrix_transform.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\matrix_transform.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\matrix_transform.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_relational.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_relational.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\detail\type_float.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_common.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_geometric.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_geometric.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_common.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_float.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\detail\type_quat.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_relational.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_relational.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\detail\type_quat.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_float_precision.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_double.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_double_precision.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_trigonometric.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_trigonometric.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_transform.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\quaternion_transform.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\quaternion.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\epsilon.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\epsilon.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\vec1.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_bool1.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_bool1_precision.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_float1.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_float1_precision.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_double1.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_double1_precision.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_int1.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_int1_sized.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_uint1.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\ext\vector_uint1_sized.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtc\type_precision.inl \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtx\dual_quaternion.hpp \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtx\dual_quaternion.inl \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\string \
+  C:\Users\marti\Documents\newvulcan\libs\GLM\glm\gtx\string_cast.inl \
+  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdarg \
+  C:\Program\ Files\LLVM\lib\clang\17\include\stdarg.h

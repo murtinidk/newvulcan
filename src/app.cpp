@@ -23,16 +23,6 @@
 namespace nve
 {
 
-  struct GlobalUbo
-  {
-
-    glm::mat4 projection{1.f};
-    glm::mat4 view{1.f};
-    alignas(16) glm::vec4 ambientColor{1.f, 1.f, 1.f, 0.02f};
-    alignas(16) glm::vec3 lightPosition{-1.f, 1.f, 1.f};
-    alignas(16) glm::vec4 lightColor{1.f, 1.f, 1.f, 1.f};
-  };
-
   NveApp::NveApp()
   {
     globalPool = NveDescriptorPool::Builder(nveDevice)
@@ -130,15 +120,20 @@ namespace nve
 
         // update
         GlobalUbo ubo{};
-        ubo.projection = frameInfo.camera.getProjection();
-        ubo.view = frameInfo.camera.getView();
+        ubo.projection = camera.getProjection();
+        ubo.view = camera.getView();
+        ubo.inverseView = camera.getInverseiew();
+        pointLightSystem.update(frameInfo, ubo);
         uboBuffers[frameIndex]->writeToBuffer(&ubo);
         uboBuffers[frameIndex]->flush();
 
         // render
         nveRenderer.beginSwapChainRenderPass(commandBuffer);
+
+        // order here matters
         simpleRenderSystem.renderGameObjects(frameInfo);
         pointLightSystem.render(frameInfo);
+
         nveRenderer.endSwapChainRenderPass(commandBuffer);
         nveRenderer.endFrame();
       }
@@ -173,6 +168,27 @@ namespace nve
     floor.transform.scale = 3.f;
     floor.transform.rotation = {-glm::half_pi<float>(), 0.f, 0.f};
     gameObjects.emplace(floor.getId(), std::move(floor));
+
+    std::vector<glm::vec3> lightColors{
+        {1.f, .1f, .1f},
+        {.1f, .1f, 1.f},
+        {.1f, 1.f, .1f},
+        {1.f, 1.f, .1f},
+        {.1f, 1.f, 1.f},
+        {1.f, 1.f, 1.f} //
+    };
+
+    for (int i = 0; size_t(i) < lightColors.size(); i++)
+    {
+      auto pointLight = NveGameObject::makePointLight(0.2f);
+      pointLight.color = lightColors[i];
+      auto rotateLight = glm::rotate(
+          glm::mat4{1.f},
+          (i * glm::two_pi<float>()) / lightColors.size(),
+          glm::vec3{0.f, 0.f, 1.f});
+      pointLight.transform.translation = glm::vec3(rotateLight * glm::vec4{0.f, 2.f, 1.f, 1.f});
+      gameObjects.emplace(pointLight.getId(), std::move(pointLight));
+    }
   }
 
 } // namespace nve

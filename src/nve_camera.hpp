@@ -19,19 +19,18 @@ namespace nve
     void setViewYXZ(glm::vec3 position, glm::vec3 rotation);
     void setViewZXY(glm::vec3 position, glm::vec3 rotation);
 
-    const glm::mat4 &getProjection() const
-    {
-      return projectionMatrix;
-    }
+    const glm::mat4 &getProjection() const { return projectionMatrix; }
     const glm::mat4 &getView() const { return viewMatrix; }
-
-      void PrintMat4();
-      void PrintVec3(glm::vec3 vector);
-
+    const glm::mat4 &getInverseiew() const { return inverseViewMatrix; }
+    glm::vec3 getPosition() const
+    {
+      return glm::vec3(inverseViewMatrix[3]);
+    }
 
   private:
     glm::mat4 projectionMatrix{1.f};
     glm::mat4 viewMatrix{1.f};
+    glm::mat4 inverseViewMatrix{1.f};
   };
 
 } // namespace nve
